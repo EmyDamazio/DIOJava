@@ -10,12 +10,18 @@ public void desligar () {
     ligada = false;
 }
 
+
 public void aumentarCanal () {
     canal++;
 }
 public void baixarCanal () {
     canal--;
 }
+public void mudarCanal (int novoCanal) {
+canal = novoCanal;
+}
+
+
 public void aumentarVolume () {
     volume++;
 }
